@@ -1,0 +1,19 @@
+{
+	"root": true,
+	"env": {
+		"browser": false,
+		"es6": true,
+		"node": true
+	},
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"plugins": ["import", "unused-imports", "jest"],
+	"extends": [
+		"airbnb-base",
+		"airbnb-typescript/base",
+		"plugin:prettier/recommended",
+		"plugin:jest/recommended"
+	],
+	"rules": {}
+}
